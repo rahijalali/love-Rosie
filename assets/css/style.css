@@ -7,18 +7,19 @@
 }
 
 .bg-color-three-reasons {
-  background-color: white;
+  background-color: #fff;
 }
+
+.bg-color-personal-info {
+  background-color: #f4f4f4;
+}
+
 .bg-color-work-history {
   background-color: #9b59b6;
 }
 
 .bg-color-contact {
   background-color: #fff;
-}
-
-.bg-color-personal-info {
-  background-color: #f4f4f4;
 }
 
 .ui-menu-color-home {
@@ -37,13 +38,15 @@
   background-color: #525252;
 }
 
-/*--------------------------------------------special paddings/margins/text*/
-.h1,
+/* ----------------------------------------Special paddings/margins/text */
+
+h1,
 h2,
 h3,
 h4 {
-  max-resolution: 0;
+  margin: 0;
 }
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -53,9 +56,11 @@ h4 {
   font-weight: 300;
   color: #fafafa;
 }
-inline-block {
+
+.inline-block {
   display: inline-block;
 }
+
 .row-table {
   display: table;
 }
@@ -65,31 +70,13 @@ inline-block {
   padding: 0 30px 30px;
   float: none;
 }
+
 .history-heading,
 .section-heading {
   font-family: "Exo", sans-serif;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 40px;
-}
-
-.center {
-  text-align: center;
-}
-.left {
-  text-align: left;
-}
-.right {
-  text-align: right;
-}
-.bold {
-  font-weight: bold;
-}
-.italic {
-  font-style: italic;
-}
-.underline {
-  text-decoration: underline;
 }
 
 /*--------------------------------------------Heading*/
@@ -138,13 +125,13 @@ header {
   font-size: 0;
 }
 
-#nav {
-  margin: 0;
-}
-
 #nav li {
   font-size: 14px;
   padding: 0;
+}
+
+#nav {
+  margin: 0;
 }
 
 .menuitem {
@@ -178,19 +165,22 @@ header {
   letter-spacing: 2px;
 }
 
-/*--------------------------------------------hover.css*/
+/*--------------------------------------------Hover.css*/
+
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
   height: 120px;
 }
 
-/*--------------------------------------------footer*/
+/* ----------------------------------------Footer */
 
 footer {
   background-color: #525252;
   color: #fafafa;
   min-height: 120px;
+  margin: 0;
 }
+
 .cv-pdf i {
   font-size: 18px;
   color: #fafafa;
@@ -205,6 +195,7 @@ footer {
 .cv-pdf i:hover {
   color: #e84610;
 }
+
 .social-links {
   padding-bottom: 15px;
 }
@@ -232,21 +223,26 @@ footer {
 #footer-details {
   padding: 20px;
 }
-/*--------------------------------------------three reasons*/
+
+/* ----------------------------------------Three Reasons */
+
 .three-reasons-icon {
   font-size: 26px;
   color: #e67e22;
 }
+
 .three-reasons-heading {
   margin-bottom: 15px;
 }
 
-/*-------------------------------------------Personal Info */
+/* ----------------------------------------Personal Info */
+
 .personal-info-item {
   margin-bottom: 20px;
   display: block;
   clear: both;
 }
+
 .personal-info-item .key,
 .personal-info-item .value {
   padding-right: 8px;
@@ -257,12 +253,14 @@ footer {
 .personal-info-item .value p {
   margin: 0;
 }
+
 .personal-info-item .key {
   width: 30%;
   margin-right: 21px;
   padding-top: 2px;
   vertical-align: top;
 }
+
 .personal-info-item .key p {
   font-weight: 700;
 }
@@ -272,7 +270,8 @@ footer {
   width: 60%;
 }
 
-/*-------------------------------------------skills */
+/* ----------------------------------------Skills */
+
 .progress {
   position: relative;
   height: 25px;
@@ -292,7 +291,8 @@ footer {
   margin: 40px 20px;
 }
 
-/*-------------------------------------------Work History */
+/* ----------------------------------------Work History */
+
 .history-heading {
   color: #fafafa;
   margin-bottom: 50px;
@@ -339,7 +339,7 @@ footer {
   margin-bottom: 30px;
 }
 
-/*-------------------------------------------contact form */
+/* ----------------------------------------Contact Form */
 
 .contact-heading {
   font-family: "Exo", sans-serif;
@@ -361,12 +361,13 @@ button[type="submit"] {
   background-color: #e84610;
 }
 
-/*-------------------------------------------Media Queries */
+/* ----------------------------------------Media Queries */
+
 @media (min-width: 992px) {
   .center-form {
     padding-top: 30px;
     min-height: 240px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 50%;
   }
 }
